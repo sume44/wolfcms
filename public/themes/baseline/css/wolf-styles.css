@@ -1,0 +1,41 @@
+/* **
+ * Basic settings for Wolf CMS out-of-the-box use case
+*/
+
+#nav ul li.current {
+ font-weight: bold;
+ }
+ #nav ul li.current a { color: #e2fbf4; }
+ .navi { color: #999; }
+ .here, .here:hover { color: #999; }
+
+h1 a:hover {
+ color: #ccc;
+ }
+h2 a:hover, h3 a:hover {
+ color: #999;
+ }
+
+.note { background-color: #f2f2f2; }
+.info {
+ font-size: smaller;
+ color: #666
+ }
+
+.copyright, .icons {
+ text-align: center;
+ padding: 0;
+ margin: 0;
+ }
+
+#footer ul.alt li a, #footer .icon:hover, .navi:hover { color: #444; }
+
+/* Flexbox sticky footer */
+#site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.site-content {
+  flex: 1;
+}
