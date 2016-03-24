@@ -3,6 +3,7 @@
  */
 CKEDITOR.tools.extend(CKFilter.config,
 {
+/*
     entities: false,
     basicEntities: false,
     entities_additional: '',
@@ -22,6 +23,7 @@ CKEDITOR.tools.extend(CKFilter.config,
         [ 'Cut','Copy','Paste','PasteFromWord' ],
         [ 'Maximize', 'Source' ]
     ],
+*/
     /* Miscelaneous options */
     filebrowserWindowWidth: '60%',
     filebrowserWindowHeight: '60%',
@@ -29,8 +31,7 @@ CKEDITOR.tools.extend(CKFilter.config,
     dialog_backgroundCoverOpacity: 0.85,
     dialog_backgroundCoverColor: '#2a2a2a',
     resize_dir: 'vertical',
-    uiColor = '#AADC6E';
-    //uiColor: '#eaebec',
+    uiColor: '#eaebec',
     magicline_color: '76a83a',
     height: '360px'
 });
