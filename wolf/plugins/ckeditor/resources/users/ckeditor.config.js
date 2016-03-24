@@ -29,7 +29,8 @@ CKEDITOR.tools.extend(CKFilter.config,
     dialog_backgroundCoverOpacity: 0.85,
     dialog_backgroundCoverColor: '#2a2a2a',
     resize_dir: 'vertical',
-    uiColor: '#eaebec',
+    uiColor = '#AADC6E';
+    //uiColor: '#eaebec',
     magicline_color: '76a83a',
     height: '360px'
 });
